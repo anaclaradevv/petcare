@@ -1,7 +1,7 @@
 /* Centraliza tudo na tela */
 body {
   font-family: Arial, sans-serif;
-  background-image: url('img/patinhas.jpg');
+  background-image: url('patinhas.jpg');
   background-repeat: no-repeat;
   background-size: cover; /* cobre toda a tela */
   background-position: center;
@@ -78,4 +78,5 @@ img {
   max-width: 100px;
   margin-top: 10px;
   border-radius: 6px;
+
 }
