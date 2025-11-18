@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>PetCare - Controle de Pets</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Cadastro do Pet</h1>
+  <form id="petForm">
+    <input type="text" id="nome" placeholder="Nome do Pet" required>
+    
+    <select id="tipo">
+      <option value="Gato">Gato</option>
+      <option value="Cachorro">Cachorro</option>
+    </select>
+    
+    <input type="text" id="vacinas" placeholder="Vacinas">
+    <input type="number" id="peso" placeholder="Peso (kg)">
+    <div class="caixa-label">
+    <label for="consulta">📅 Data da última consulta</label>
+    </div>
+    <input type="date" id="consulta">
+    <input type="file" id="foto" accept="image/*">
+    
+    <button type="submit">Salvar</button>
+  </form>
+
+  <h2>Pets Cadastrados</h2>
+  <div id="petList"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
